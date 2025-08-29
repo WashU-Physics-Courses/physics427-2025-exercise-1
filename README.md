@@ -44,4 +44,12 @@ Then, write the content into a file. Put the code in `exercise4.cpp`.
 
 **Question:** How much memory do you expect the vector to occupy? How large do you expect the output file to be? Is it the same size as what you expect?
 
+Additionally, try to create an ordinary array using something like this (the ' is only a separator for readability, and the compiler will just ignore it):
+
+```cpp
+double arr[10'000'000];
+```
+
+Try to adjust the number and see when/if you get a stack overflow on your computer.
+
 You can write your answers to these questions in `exercise4.txt`.
